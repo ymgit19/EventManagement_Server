@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Enable CORS
 const corsOptions = {
-  origin: ['http://localhost:3000', 'http://localhost:3001'],
+  origin: ['http://localhost:3000', 'http://localhost:3001','https://event-management-client-five.vercel.app'],
   credentials: true,
   optionsSuccessStatus: 200
 };
